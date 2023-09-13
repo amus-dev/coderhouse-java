@@ -81,17 +81,14 @@ public class Persona {
      }
 
      private static void sortByName(List<Persona> listPersonas) {
-          listPersonas.sort((o1, o2) -> o1.getNombre().compareTo(
-                    o2.getNombre()));
+          listPersonas.sort((o1, o2) -> o1.getNombre().compareTo(o2.getNombre()));
      }
 
      private static void sortByApellido(List<Persona> listPersonas) {
-          listPersonas.sort((o1, o2) -> o1.getApellido().compareTo(
-                    o2.getApellido()));
+          listPersonas.sort((o1, o2) -> o1.getApellido().compareTo(o2.getApellido()));
      }
 
      private static void sortByApellidoInverso(List<Persona> listPersonas) {
-          listPersonas.sort((o1, o2) -> o2.getApellido().compareTo(
-                    o1.getApellido()));
+          listPersonas.sort((o1, o2) -> o2.getApellido().compareTo(o1.getApellido()));
      }
 }
