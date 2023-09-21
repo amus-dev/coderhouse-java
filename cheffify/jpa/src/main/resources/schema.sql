@@ -11,6 +11,5 @@ CREATE TABLE BOOKS (
     title VARCHAR(255) NOT NULL,
     price INT NOT NULL,
     year_book INT,
-    cover VARCHAR(255),
-    author_id INT
+    cover VARCHAR(255)
 );
