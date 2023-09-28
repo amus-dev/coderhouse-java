@@ -5,7 +5,6 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import ventas.cheffify.jpa.entity.Author;
-import ventas.cheffify.jpa.entity.Book;
 import ventas.cheffify.jpa.service.DaoFactory;
 
 @SpringBootApplication
