@@ -1,0 +1,28 @@
+.title {
+  font-size: 42px;
+  font-family: Raleway, sans-serif;
+}
+
+.description {
+  font-size: 19px;
+  font-family: Raleway, sans-serif;
+}
+
+.color-blue {
+  color: rgb(38, 44, 87);
+}
+
+.color-orange {
+  color: rgb(215, 116, 102);
+}
+
+.raleway {
+  font-family: Raleway, sans-serif;
+}
+
+.row {
+  display: grid;
+  gap: 1rem;
+  grid-auto-rows: auto;
+  grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+}

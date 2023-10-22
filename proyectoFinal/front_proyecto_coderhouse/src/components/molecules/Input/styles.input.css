@@ -1,0 +1,17 @@
+.input {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  border-radius: 6px;
+  background-color: rgb(232, 232, 239);
+  color: rgb(128, 128, 139);
+  font-family: Raleway;
+  font-weight: bold;
+  font-style: normal;
+  margin-bottom: 13px;
+  background-size: 15px;
+  background-repeat: no-repeat;
+  background-position: 10px 50%;
+  border: none;
+  text-align: start;
+}

@@ -1,0 +1,56 @@
+.cardProduct {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(215, 116, 102, 0.4) 0px 0px 15px;
+  border-radius: 15px;
+  padding: 10px;
+  margin-right: 13px;
+  margin-left: 13px;
+  z-index: 1;
+}
+.cardProduct__body-image {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.cardProduct__body-title {
+  font-size: 18px;
+  color: rgb(100, 100, 119);
+}
+
+.cardProduct__body-description {
+  color: rgb(128, 128, 139);
+  font-size: 12px;
+  margin-top: 7px;
+}
+
+.cardProduct__body-price {
+  color: rgb(38, 44, 87);
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.cardProduct__body-button {
+  cursor: pointer;
+  width: 240px;
+  border-radius: 32px;
+  margin: 5px;
+  text-align: center;
+  transition: filter 0.5s ease-in-out 0s;
+  text-decoration: none;
+  display: block;
+  font-size: 14px;
+}
+
+.button-eliminar {
+  color: rgb(255, 255, 255);
+  border: 2px solid rgb(215, 116, 102);
+  background-color: rgb(215, 116, 102);
+}
+
+.button-editar {
+  color: rgb(215, 116, 102);
+  border: 2px solid rgb(215, 116, 102);
+  background-color: rgb(255, 255, 255);
+}
