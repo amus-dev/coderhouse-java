@@ -3,6 +3,7 @@ import Button from "../../molecules/Button";
 import Input from "../../molecules/Input";
 import "./styles.editproduct.css";
 import { Link } from "react-router-dom";
+import { BASE_URL_API } from "../../../config/index";
 
 const EditProductTemplate = ({ product }) => {
   const [nombre, setNombre] = useState(product.nombre);
@@ -11,7 +12,7 @@ const EditProductTemplate = ({ product }) => {
   const [image, setImage] = useState(product.imagePath);
 
   const handleEditar = () => {
-    fetch(`http://localhost:8080/api/producto/editar/${product.id}`, {
+    fetch(`${BASE_URL_API}/producto/editar/${product.id}`, {
       method: "PUT", // or 'PUT'
       body: JSON.stringify({
         nombre,

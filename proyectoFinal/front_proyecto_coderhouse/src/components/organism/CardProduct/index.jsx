@@ -1,12 +1,13 @@
 import { Link } from "react-router-dom";
 import "./styles.cardproduct.css";
 import Button from "../../molecules/Button";
+import { BASE_URL_API } from "../../../config/index";
 
 const CardProduct = ({ product }) => {
   const handleClickDelete = () => {
     const response = confirm("¿Estas seguro de eliminar este producto?");
     if (response) {
-      fetch(`http://localhost:8080/api/producto/eliminar/${product.id}`, {
+      fetch(`${BASE_URL_API}/producto/eliminar/${product.id}`, {
         method: "GET", // or 'PUT'
       })
         .then(() => {
