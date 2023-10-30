@@ -32,7 +32,6 @@
 }
 
 .cardProduct__body-button {
-  cursor: pointer;
   width: 240px;
   border-radius: 32px;
   margin: 5px;
@@ -44,12 +43,14 @@
 }
 
 .button-eliminar {
+  cursor: pointer;
   color: rgb(255, 255, 255);
   border: 2px solid rgb(215, 116, 102);
   background-color: rgb(215, 116, 102);
 }
 
 .button-editar {
+  cursor: pointer;
   color: rgb(215, 116, 102);
   border: 2px solid rgb(215, 116, 102);
   background-color: rgb(255, 255, 255);

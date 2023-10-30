@@ -9,7 +9,7 @@ const Input = ({ type, id, placeholder, value, onChange }) => {
       id={id}
       placeholder={placeholder}
       value={value}
-      onChange={(e) => console.log(e.target.value)}
+      onChange={(e) => onChange(e.target.value)}
     />
   );
 };

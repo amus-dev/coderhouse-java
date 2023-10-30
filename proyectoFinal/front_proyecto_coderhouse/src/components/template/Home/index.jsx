@@ -1,6 +1,6 @@
 import CardProduct from "../../organism/CardProduct";
 
-const HomeTemplate = () => {
+const HomeTemplate = ({ products }) => {
   return (
     <div>
       <h1 className="title color-blue">Comida congelada a domicilio</h1>
@@ -10,14 +10,10 @@ const HomeTemplate = () => {
         directamente en tu casa. ¡Garantía de calidad!
       </p>
       <div className="row">
-        <CardProduct />
-        <CardProduct />
-        <CardProduct />
-        <CardProduct />
-        <CardProduct />
-        <CardProduct />
-        <CardProduct />
-        <CardProduct />
+        {products &&
+          products.map((product) => (
+            <CardProduct key={product.id} product={product} />
+          ))}
       </div>
     </div>
   );
